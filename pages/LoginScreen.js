@@ -4,9 +4,9 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { AccessToken, LoginManager } from 'react-native-fbsdk-next';
 import auth from '@react-native-firebase/auth';
 import { useNavigation } from '@react-navigation/native';
-
+import Home from './Home';
 export default function SignUpScreen() {
-  const navigation = useNavigation(); // Hook to access the navigation object
+  const navigation = useNavigation(); 
 
   const handleFacebookLogin = async () => {
     try {
@@ -26,7 +26,7 @@ export default function SignUpScreen() {
       const facebookCredential = auth.FacebookAuthProvider.credential(data.accessToken);
       await auth().signInWithCredential(facebookCredential);
       Alert.alert('Success', 'Logged in with Facebook');
-      navigation.navigate('UserManagement'); // Navigate to the next screen upon success
+      navigation.navigate('Home'); // Navigate to the next screen upon success
     } catch (error) {
       Alert.alert('Error', error.message);
       navigation.navigate('Login'); // Navigate back to the login screen if an error occurs
