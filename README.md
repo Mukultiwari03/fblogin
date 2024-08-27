@@ -39,7 +39,6 @@ Before getting started, I made sure to have the following:
 3. I also needed `react-native-fbsdk-next`, so I ran:
     ```bash
     npm install react-native-fbsdk-next
-    npx pod-install
     ```
 
 4. Since I’m using Firebase, I installed the necessary packages:
