@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384250309032",
+    "project_id": "fblogin-f3d49",
+    "storage_bucket": "fblogin-f3d49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384250309032:android:5bd0278d4889a065b9159d",
+        "android_client_info": {
+          "package_name": "com.gmailicons"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt7nsmLR5R-BX72W--4tcZp67BEUqL_bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
